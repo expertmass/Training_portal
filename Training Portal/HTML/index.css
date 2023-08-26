@@ -1,0 +1,949 @@
+.main {
+    height: 750px;
+    width: 100%;
+    background-image: url("C:/Users/maste/Desktop/ASSETS/Group 32771.png");
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#expand {
+    height: 3000px;
+    /* this for about page  */
+}
+
+#aboutbottom {
+    position: absolute;
+    bottom: 0px;
+}
+
+#contact {
+    height: 40px;
+    width: 15%;
+    border: 3px solid rgb(4, 79, 132);
+    position: absolute;
+    left: 80%;
+    right: 10px;
+    top: 40px;
+    border-radius: 20px 20px 4px 20px;
+    font-family: Arial;
+
+
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 510px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(4, 79, 132);
+}
+
+#phone {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+#num {
+    font-size: 23px;
+    position: absolute;
+    left: 50px;
+    top: -15px;
+    color: rgb(4, 79, 132)
+}
+
+#flew {
+    height: 95px;
+    width: 85px;
+    position: absolute;
+    left: 250px;
+    top: 40px;
+}
+
+#nav1 {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: 50px;
+    width: 400px;
+    font-size: 25px;
+    color: red;
+}
+
+#nav2 {
+    position: absolute;
+    top: 149px;
+    left: 403px;
+    height: 50px;
+    width: 1100px;
+    background-color: rgb(4, 79, 132);
+    font-family: Arial;
+    color: white;
+
+}
+
+#nav2:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 51px solid white;
+    border-right: 52px solid rgb(4, 79, 132);
+    height: 0px;
+    width: 0;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    left: 100px;
+    top: -50px;
+}
+
+li {
+
+    display: inline-block;
+    margin: 50px;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none;
+}
+
+option#Language {
+    border: none;
+}
+
+.down {
+
+    position: absolute;
+    top: 300px;
+    left: 500px;
+
+}
+
+.login {
+
+    height: 445px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#google {
+    padding: 5px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    height: 25px;
+    width: 200px;
+}
+
+#Facebook {
+    padding: 5px;
+    position: absolute;
+    top: 130px;
+    left: 255px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 25px;
+    width: 200px;
+}
+
+#or {
+    font-size: 13px;
+    position: absolute;
+    top: 167px;
+    left: 230px;
+}
+
+#user {
+    height: 20px;
+    width: 473px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+#pass {
+    height: 20px;
+    width: 473px;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.radiobtn {
+    height: 20px;
+    width: 473px;
+    position: absolute;
+    top: 330px;
+    left: 0px;
+}
+
+#right {
+    float: right;
+    text-decoration: none;
+}
+
+.btn {
+
+    color: blue;
+
+
+}
+
+h5 {
+    height: 20px;
+    width: 474px;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    background:
+        radial-gradient(farthest-side at left,
+            rgba(512, 0, 8, 47.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(-28, 0, 132, 9.5),
+            transparent 1000px);
+}
+
+#mem {
+    position: absolute;
+    top: 404px;
+    left: 140px;
+
+
+}
+
+#m2 {
+    position: absolute;
+    top: 420px;
+    left: 265px;
+    text-decoration: none;
+}
+
+.text {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 325px;
+    left: 30px;
+
+}
+
+#ads {
+    position: absolute;
+    left: 0px;
+    font-size: 50px;
+    color: rgb(4, 79, 132);
+    text-align: left;
+}
+
+#ads1 {
+    position: absolute;
+    color: black;
+    left: 0px;
+    top: 60px;
+    font-size: 50px;
+    text-align: left;
+
+
+}
+
+#para {
+    position: absolute;
+    color: black;
+    left: 0px;
+    top: 200px;
+    text-align: left;
+
+
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(4, 79, 132);
+
+}
+
+#btmTop {
+    position: absolute;
+    top: -20px;
+    left: 630px;
+    height: 40px;
+    width: 250px;
+
+    font-size: 30px;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    background: radial-gradient(farthest-side at left,
+            rgba(512, 0, 8, 47.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(-28, 0, 132, 9.5),
+            transparent 1000px);
+}
+
+#para2 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+#abtbg {
+    height: 570px;
+    width: 100%;
+    position: absolute;
+    top: 198px;
+    left: 0px;
+
+    background-image: url("C:/Users/maste/Desktop/ASSETS/Group 32772.png");
+
+}
+
+#about {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+}
+
+#homeicon {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+#abt {
+    position: absolute;
+    top: 35%;
+    left: 140%;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.divblock {
+    height: 390px;
+    width: 700px;
+    position: absolute;
+    top: 813px;
+    right: 140px;
+    font-size: 18px;
+    word-spacing: 10px;
+    text-align: left;
+}
+
+.divimg {
+    height: 390px;
+    width: 300px;
+    position: absolute;
+    top: 813px;
+    left: 10px;
+    /* border: 4px solid black; */
+
+}
+
+#divimg {
+    border-top: 5px solid rgb(4, 79, 132);
+    position: absolute;
+    top: 15px;
+    left: 85px;
+    font-size: 42px;
+    color: black;
+    text-align: left;
+}
+
+#why {
+    color: rgb(4, 79, 132);
+    position: absolute;
+    top: 105px;
+    left: 85px;
+    font-size: 22px;
+    text-align: left;
+
+}
+
+#gropimg {
+    position: absolute;
+    top: 165px;
+    left: 80px;
+    text-align: left;
+}
+
+#who {
+    position: absolute;
+    top: 1260px;
+    left: 625px;
+    font-size: 45px;
+    color: black;
+}
+
+#btmline {
+    position: absolute;
+    top: 1325px;
+    left: 707px;
+    font-size: 25px;
+    color: rgb(4, 79, 132);
+}
+
+#detail1 {
+    height: 300px;
+    width: 600px;
+    /* border: 4px solid blueviolet; */
+    position: absolute;
+    top: 1370px;
+    left: 65px;
+
+
+
+}
+
+#detail2 {
+    /* border: 4px solid blueviolet;
+    height: 300px; */
+    width: 600px;
+    position: absolute;
+    top: 1370px;
+    right: 65px;
+}
+
+#detail1img {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+
+
+}
+
+#detail2img {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    right: 250px;
+
+}
+
+#det1 {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+#det2 {
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    text-align: left;
+    font-size: 18px;
+
+}
+
+#nam1 {
+    color: rgb(4, 79, 132);
+    font-size: 20px;
+    position: absolute;
+    bottom: 100px;
+    right: 43%
+}
+
+#nam2 {
+    color: rgb(4, 79, 132);
+    font-size: 20px;
+    position: absolute;
+    bottom: -195px;
+    right: 45%;
+
+}
+
+.basic {
+    position: absolute;
+    top: 1750px;
+    left: 115px;
+    height: 500px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 29px 14px 30px #00000051;
+    background-color: rgb(231, 229, 229);
+}
+
+.standard {
+    position: absolute;
+    top: 1700px;
+    left: 580px;
+    height: 600px;
+    width: 370px;
+    border-radius: 25px;
+    box-shadow: 29px 14px 30px #00000051;
+    background-color: rgb(231, 229, 229);
+}
+
+.premium {
+    position: absolute;
+    top: 1750px;
+    right: 115px;
+    height: 500px;
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 29px 14px 30px #00000051;
+    background-color: rgb(231, 229, 229);
+}
+
+#upper1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 350px;
+    border-radius: 25px 25px 0px 0px;
+
+    background: radial-gradient(farthest-side at left,
+            rgba(399, 0, 8, 0.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(0, 1, 125, 1.5),
+            transparent 1019px);
+
+}
+
+#upper2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 230px;
+    width: 370px;
+    border-radius: 25px 25px 0px 0px;
+    background: radial-gradient(farthest-side at left,
+            rgba(399, 0, 8, 0.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(0, 1, 125, 1.5),
+            transparent 1019px)
+}
+
+#upper3 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 350px;
+    border-radius: 25px 25px 0px 0px;
+    background: radial-gradient(farthest-side at left,
+            rgba(399, 0, 8, 0.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(0, 1, 125, 1.5),
+            transparent 1019px);
+
+}
+
+#head1 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    color: white;
+    font-size: 35px;
+}
+
+#head2 {
+    color: white;
+    position: absolute;
+    left: 95px;
+    top: 0px;
+    font-size: 35px;
+}
+
+#head3 {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    font-size: 35px;
+}
+
+#H1_para {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+
+    text-align: center;
+}
+
+#H2_para {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+    text-align: center;
+}
+
+#H3_para {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+#RS1 {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 120px;
+    left: 115px;
+
+    border-radius: 50%;
+
+    background-color: white;
+    box-shadow: 0px 13px 61px #00000063
+}
+
+#RS2 {
+    height: 135px;
+    width: 135px;
+    position: absolute;
+    top: 145px;
+    left: 122px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 13px 61px #00000063
+}
+
+#RS3 {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 120px;
+    left: 115px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 13px 61px #00000063
+}
+
+#RSh1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(4, 79, 132);
+}
+
+#RSh2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(4, 79, 132);
+}
+
+#RSh3 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(4, 79, 132);
+}
+
+#hp1 {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+
+}
+
+#hp2 {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+
+}
+
+#hp3 {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+}
+
+#plan1 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height: 30px;
+    width: 350px;
+
+    background: radial-gradient(farthest-side at left,
+            rgb(177 178 167),
+            #92aac8 569px),
+        radial-gradient(farthest-corner at right,
+            rgba(1, 70, 125, 1.5),
+            transparent 964px);
+}
+
+#plan2 {
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    height: 30px;
+    width: 370px;
+    background: radial-gradient(farthest-side at left,
+            rgb(177 178 167),
+            #92aac8 569px),
+        radial-gradient(farthest-corner at right,
+            rgba(1, 70, 125, 1.5),
+            transparent 964px);
+
+}
+
+#plan3 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height: 30px;
+    width: 350px;
+    background: radial-gradient(farthest-side at left,
+            rgb(177 178 167),
+            #92aac8 569px),
+        radial-gradient(farthest-corner at right,
+            rgba(1, 70, 125, 1.5),
+            transparent 964px);
+}
+
+.buy1 {
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 245px;
+
+    text-align: center;
+
+}
+
+.buy2 {
+    height: 250px;
+    width: 370px;
+    /* border: 2px solid red; */
+    ;
+    position: absolute;
+    top: 290px;
+
+    text-align: center;
+}
+
+.buy3 {
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 245px;
+
+    text-align: center;
+}
+
+.Testimonial {
+    position: absolute;
+    top: 2360px;
+    left: 635px;
+    color: black;
+}
+
+#btmline2 {
+    position: absolute;
+    top: 2440px;
+    left: 720px;
+    font-size: 25px;
+    color: rgb(4, 79, 132);
+}
+
+#intro1 {
+    position: absolute;
+    top: 2520px;
+    left: 100px;
+    height: 350px;
+    width: 350px;
+
+}
+
+#intro2 {
+    position: absolute;
+    top: 2520px;
+    left: 586px;
+    height: 350px;
+    width: 350px;
+
+
+}
+
+#intro3 {
+    position: absolute;
+    top: 2520px;
+    right: 100px;
+    height: 350px;
+    width: 350px;
+
+}
+
+#int1 {
+    font-size: 19px;
+}
+
+#int2 {
+    font-size: 19px;
+}
+
+#int3 {
+    font-size: 19px;
+}
+
+#detail1img1 {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 50px;
+}
+
+#detail1img2 {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    left: 55px;
+}
+
+#detail1img3 {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 240px;
+    right: 208px;
+}
+
+#detail1name {
+    position: absolute;
+    top: 250px;
+    left: 157px;
+    font-size: 20px;
+}
+
+#detail1para {
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
+
+#detail2name {
+    position: absolute;
+    top: 255px;
+    left: 165px;
+    font-size: 20px;
+}
+
+#detail2para {
+    position: absolute;
+    top: 285px;
+    left: 165px;
+}
+
+#detail3name {
+    position: absolute;
+    top: 250px;
+    left: 157px;
+    font-size: 20px;
+}
+
+#detail3para {
+    position: absolute;
+    top: 285px;
+    left: 150px;
+}
+
+
+
+
+
+#bottom2 {
+    position: absolute;
+    bottom: -2260px;
+    height: 100px;
+    width: 99%;
+    background-color: rgb(4, 79, 132);
+
+}
+
+#btmTop2 {
+    position: absolute;
+    top: -20px;
+    left: 630px;
+    height: 40px;
+    width: 250px;
+
+    font-size: 30px;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    background: radial-gradient(farthest-side at left,
+            rgba(512, 0, 8, 47.5),
+            transparent 500px),
+        radial-gradient(farthest-corner at right,
+            rgba(-28, 0, 132, 9.5),
+            transparent 1000px);
+}
+
+#paragraph2 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+
+}
